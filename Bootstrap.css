@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body {
+    background-color: #FBFBFB;
+}
+
+.back-img {
+    background-image: url("Background.png");
+    mix-blend-mode: multiply;
+    height: 480px;
+    background-repeat: no-repeat;
+    position: fixed;
+    background-size: cover;
+}
+
+.Login,
+.Create-account {
+    text-decoration: none;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.Login:hover,
+.Create-account:hover {
+    color: #FFFFFF;
+}
+
+.Create-account {
+    border: 1px solid white;
+    border-radius: 5%;
+}
+
+.logo {
+    display: inline;
+    color: #EB2929;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.restaurant-title {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 36px;
+    opacity: 1;
+}
+
+.locationSelector {
+    position: relative;
+    width: 245px;
+    height: 60px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.locationDropdown {
+    width: 245px;
+    height: 21px;
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #636F88;
+    opacity: 1;
+    border: 0px;
+    outline: 0px;
+    -webkit-appearance: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.restaurantSelector {
+    width: 477px;
+    height: 60px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.restaurants-input {
+    width: 174px;
+    height: 21px;
+    color: #636F88;
+    opacity: 1;
+    font-size: 15px;
+    border: 0px;
+    outline: 0px;
+    margin-top: 20px;
+}
+
+.icon {
+    margin-left: 10px;
+    display: inline;
+    color: #74819E;
+    opacity: 0.97;
+    width: 17px;
+    height: 17px;
+    margin: 10px;
+}
